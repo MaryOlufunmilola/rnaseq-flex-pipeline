@@ -198,7 +198,7 @@ This pipeline can be run from any of the following starting points:
 
 ### 0. Optional: Preprocessing with nf-core RNA-seq
 
-# Project variables (update these for your project)
+Project variables (update these for your project)
 
 ```bash
 # Path to your samplesheet CSV
@@ -353,14 +353,6 @@ source("run_analysis.R")
 - `DEfiles/`: DE result tables.
 - `QC_Plots/`: PCA, correlation, and QC figures.
 - `Pathway/`: Enrichment and GSEA outputs.
-
-## Reproducibility
-
-Consider using `renv` to lock package versions:
-
-```r
-renv::init()
-```
 
 ## Notes
 
