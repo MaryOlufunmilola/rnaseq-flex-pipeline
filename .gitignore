@@ -1,0 +1,29 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Data (large files)
+# Uncomment if you don't want to push quant_files or data folders
+quant_files/
+data/*
+
+# BUT keep example data
+!data/example_counts.tsv
+
+# Results
+results/
+DEfiles/
+Pathway/
+QC_Plots/
+
+# renv cache (keep renv folder but cache subfolders can be ignored)
+renv/cache/
+
+# System
+.DS_Store
+Thumbs.db
