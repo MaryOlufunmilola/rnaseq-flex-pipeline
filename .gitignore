@@ -1,0 +1,31 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Input data: keep only the simulated example
+quant_files/
+data/*
+!data/example_counts.tsv
+
+# Results
+results/
+DEfiles/
+Pathway/
+QC_Plots/
+
+# renv cache
+renv/cache/
+
+# Documents and drafts
+*.docx
+*.doc
+*.pptx
+
+# System
+.DS_Store
+Thumbs.db
